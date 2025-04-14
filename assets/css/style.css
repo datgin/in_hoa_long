@@ -6202,15 +6202,6 @@ label {
 	}
 }
 
-.flickity-prev-next-button:disabled,
-button.flickity-prev-next-button[disabled] {
-	background: none !important;
-	box-shadow: none !important;
-	cursor: auto;
-	opacity: 0 !important;
-	pointer-events: none;
-}
-
 .flickity-prev-next-button svg {
 	height: auto;
 	left: 50%;
@@ -6223,6 +6214,15 @@ button.flickity-prev-next-button[disabled] {
 	transition: all 0.3s;
 	width: 100%;
 }
+.flickity-prev-next-button:disabled,
+button.flickity-prev-next-button[disabled] {
+	background: none !important;
+	box-shadow: none !important;
+	cursor: auto;
+	opacity: 0 !important;
+	pointer-events: none;
+}
+
 
 .slider-nav-push:not(.slider-nav-reveal) .flickity-prev-next-button {
 	margin-top: -10%;
