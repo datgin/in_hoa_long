@@ -566,3 +566,6 @@ form.cart .button {
 .label-popular.menu-item > a:after {
 	content: "Popular";
 }
+.offcanvas.offcanvas-start.show{
+	width:100%
+}
