@@ -9752,8 +9752,14 @@ html {
 	z-index: 1000;
 	transition: transform 0.3s ease;
 }
+
 .header-main.hide {
 	transform: translateY(-100%); /* Trượt header lên ngoài màn hình */
+  height: 116px
+}
+.header-main {
+  position: relative;
+  z-index: 10
 }
 .header-bottom {
 	min-height: 35px;

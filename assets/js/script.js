@@ -56,27 +56,3 @@ const swiper2 = new Swiper(".mySwiper2", {
     },
   },
 });
-const header = document.querySelector(".header-main");
-let lastScroll = window.scrollY;
-let scrollTimeout;
-
-window.addEventListener("scroll", () => {
-  const currentScroll = window.scrollY;
-
-  // Cuộn xuống
-  if (currentScroll > lastScroll) {
-    header.classList.add("hide");
-  }
-  // Cuộn lên
-  else if (currentScroll < lastScroll) {
-    header.classList.remove("hide");
-  }
-
-  lastScroll = currentScroll;
-
-  // Nếu dừng cuộn trong 2 giây → ẩn header
-  clearTimeout(scrollTimeout);
-  scrollTimeout = setTimeout(() => {
-    header.classList.add("hide");
-  }, 2000); // 2000 ms = 2 giây
-});
