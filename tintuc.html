@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi" class="js" style="--flatsome--header--sticky-height: 120px">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
@@ -15,22 +19,32 @@
       type="text/css"
       media="all"
     />
-    <!-- Flickity CSS -->
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/flickity@2/dist/flickity.min.css"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <!-- Flickity JS -->
-    <script src="https://cdn.jsdelivr.net/npm/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href=""
+      class="https://cdn.jsdelivr.net/npm/flickity@2/dist/flickity.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.css"
+    />
   </head>
 
   <body
     class="home page-template page-template-page-blank page-template-page-blank-php page page-id-5185 theme-flatsome woocommerce-no-js lightbox nav-dropdown-has-arrow"
   >
     <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
-
     <div id="wrapper">
       <header
         id="header"
@@ -44,7 +58,7 @@
             >
               <div id="logo" class="flex-col logo">
                 <a
-                  href="https://inhoalong.vn/"
+                  href="/index.html"
                   title="In Hoa Long - Công ty in Hoa Long &#8211; Xưởng in ấn giá rẻ tại Hà Nội chuyên ✅ Thiết kế và in tem nhãn mác, in bao bì &#8211; vỏ hộp, túi giấy.. theo yêu cầu. In giá gốc gọi 0903400469"
                   rel="home"
                   ><img
@@ -212,9 +226,13 @@
                   </li>
                   <li class="nav-icon has-icon">
                     <a
-                      type="button"
+                      href="#"
                       data-bs-toggle="offcanvas"
-                      data-bs-target="#myOffcanvas"
+                      data-bs-target="#offcanvasMenu"
+                      class="is-small"
+                      aria-label="Menu"
+                      aria-controls="offcanvasMenu"
+                      aria-expanded="false"
                     >
                       <i class="icon-menu"></i>
                     </a>
@@ -311,7 +329,7 @@
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7766 menu-item-design-default"
                           >
                             <a
-                              href="https://inhoalong.vn/shop/"
+                              href="category.html"
                               class="nav-top-link"
                               >Xem tất cả</a
                             >
@@ -332,7 +350,7 @@
                   >
                     <a
                       rel="nofollow"
-                      href="https://inhoalong.vn/gioi-thieu/"
+                      href="/gioithieu.html"
                       class="nav-top-link"
                       >Giới thiệu</a
                     >
@@ -1529,10 +1547,7 @@
                     id="menu-item-7737"
                     class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7737 menu-item-design-default"
                   >
-                    <a
-                      rel="nofollow"
-                      href="https://inhoalong.vn/tin-tuc/"
-                      class="nav-top-link"
+                    <a rel="nofollow" href="/tintuc.html" class="nav-top-link"
                       >Tin Tức</a
                     >
                   </li>
@@ -1540,10 +1555,7 @@
                     id="menu-item-7738"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7738 menu-item-design-default"
                   >
-                    <a
-                      rel="nofollow"
-                      href="https://inhoalong.vn/lien-he/"
-                      class="nav-top-link"
+                    <a rel="nofollow" href="/lienhe.html" class="nav-top-link"
                       >Liên hệ</a
                     >
                   </li>
@@ -1630,7 +1642,6 @@
           </div>
         </div>
       </header>
-
       <main id="main" class="">
         <div id="content" class="blog-wrapper blog-archive page-wrapper">
           <div class="container">
@@ -1649,16 +1660,16 @@
               <div
                 class="is-sticky-column"
                 data-sticky-mode="javascript"
-                style="transform: translateY(0px)"
+                style="top: -479px"
               >
                 <div class="is-sticky-column__inner">
                   <div id="secondary" class="widget-area" role="complementary">
                     <aside id="block_widget-2" class="widget block_widget">
                       <div
-                        id="stack-3678214761"
+                        id="stack-1160903882"
                         class="stack button-sidebar stack-col justify-start items-stretch"
                       >
-                        <div id="text-1276851282" class="text text-sidebar-cs">
+                        <div id="text-166416753" class="text text-sidebar-cs">
                           Top 6 dịch vụ in ấn tại Hoa Long
                         </div>
                         <a
@@ -1704,7 +1715,7 @@
                         >
                           <span>In hộp giấy đựng bánh</span> </a
                         ><style>
-                          #stack-3678214761 > * {
+                          #stack-1160903882 > * {
                             --stack-gap: 1rem;
                           }
                         </style>
@@ -1759,6 +1770,76 @@
             <div class="large-9 col medium-col-first">
               <h1 class="page-title">Tin Tức</h1>
               <div class="row large-columns-1 medium-columns- small-columns-1">
+                <div class="col post-item">
+                  <div class="col-inner">
+                    <div
+                      class="box box-vertical box-text-bottom box-blog-post has-hover"
+                    >
+                      <div class="box-image" style="width: 40%">
+                        <div class="image-cover" style="padding-top: 56%">
+                          <a
+                            href="https://inhoalong.vn/nhung-luu-y-khi-thiet-ke-in-an/"
+                            class="plain"
+                            aria-label="Những lưu ý khi thiết kế, in ấn để có sản phẩm hoàn hảo"
+                            ><img
+                              data-lazyloaded="1"
+                              src="https://inhoalong.vn/wp-content/uploads/2025/04/nhung-luu-y-khi-thiet-ke-in-an-300x200.jpg"
+                              width="300"
+                              height="200"
+                              data-src="https://inhoalong.vn/wp-content/uploads/2025/04/nhung-luu-y-khi-thiet-ke-in-an-300x200.jpg"
+                              class="attachment-medium size-medium wp-post-image entered litespeed-loaded"
+                              alt="Những lưu ý khi thiết kế, in ấn để có sản phẩm hoàn hảo"
+                              decoding="async"
+                              data-srcset="https://inhoalong.vn/wp-content/uploads/2025/04/nhung-luu-y-khi-thiet-ke-in-an-300x200.jpg 300w, https://inhoalong.vn/wp-content/uploads/2025/04/nhung-luu-y-khi-thiet-ke-in-an.jpg 600w"
+                              data-sizes="(max-width: 300px) 100vw, 300px"
+                              data-ll-status="loaded"
+                              sizes="(max-width: 300px) 100vw, 300px"
+                              srcset="
+                                https://inhoalong.vn/wp-content/uploads/2025/04/nhung-luu-y-khi-thiet-ke-in-an-300x200.jpg 300w,
+                                https://inhoalong.vn/wp-content/uploads/2025/04/nhung-luu-y-khi-thiet-ke-in-an.jpg         600w
+                              " /><noscript
+                              ><img
+                                width="300"
+                                height="200"
+                                src="https://inhoalong.vn/wp-content/uploads/2025/04/nhung-luu-y-khi-thiet-ke-in-an-300x200.jpg"
+                                class="attachment-medium size-medium wp-post-image"
+                                alt="Những lưu ý khi thiết kế, in ấn để có sản phẩm hoàn hảo"
+                                decoding="async"
+                                srcset="
+                                  https://inhoalong.vn/wp-content/uploads/2025/04/nhung-luu-y-khi-thiet-ke-in-an-300x200.jpg 300w,
+                                  https://inhoalong.vn/wp-content/uploads/2025/04/nhung-luu-y-khi-thiet-ke-in-an.jpg         600w
+                                "
+                                sizes="(max-width: 300px) 100vw, 300px" /></noscript
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="box-text text-left">
+                        <div class="box-text-inner blog-post-inner">
+                          <div class="c-line-top-meta">
+                            <a
+                              href="https://inhoalong.vn/tin-tuc/"
+                              class="c-meta-category"
+                              >Tin Tức</a
+                            ><span class="c-meta-date">14/04/2025</span>
+                          </div>
+                          <h4 class="post-title is-large">
+                            <a
+                              href="https://inhoalong.vn/nhung-luu-y-khi-thiet-ke-in-an/"
+                              class="plain"
+                              >Những lưu ý khi thiết kế, in ấn để có sản phẩm
+                              hoàn hảo</a
+                            >
+                          </h4>
+                          <div class="is-divider"></div>
+                          <p class="from_the_blog_excerpt">
+                            Bạn từng háo hức chờ đợi ấn phẩm in ấn nhưng lại
+                            thất vọng vì...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="col post-item">
                   <div class="col-inner">
                     <div
@@ -2052,15 +2133,21 @@
                             aria-label="In decal trong là gì? Tất tần tật về decal nhựa trong suốt"
                             ><img
                               data-lazyloaded="1"
-                              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMzAwIDIwMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
+                              src="https://inhoalong.vn/wp-content/uploads/2025/04/in-decal-trong-la-gi-300x200.jpg"
                               width="300"
                               height="200"
                               data-src="https://inhoalong.vn/wp-content/uploads/2025/04/in-decal-trong-la-gi-300x200.jpg"
-                              class="attachment-medium size-medium wp-post-image"
+                              class="attachment-medium size-medium wp-post-image entered litespeed-loaded"
                               alt="In decal trong là gì?"
                               decoding="async"
                               data-srcset="https://inhoalong.vn/wp-content/uploads/2025/04/in-decal-trong-la-gi-300x200.jpg 300w, https://inhoalong.vn/wp-content/uploads/2025/04/in-decal-trong-la-gi.jpg 600w"
-                              data-sizes="(max-width: 300px) 100vw, 300px" /><noscript
+                              data-sizes="(max-width: 300px) 100vw, 300px"
+                              data-ll-status="loaded"
+                              sizes="(max-width: 300px) 100vw, 300px"
+                              srcset="
+                                https://inhoalong.vn/wp-content/uploads/2025/04/in-decal-trong-la-gi-300x200.jpg 300w,
+                                https://inhoalong.vn/wp-content/uploads/2025/04/in-decal-trong-la-gi.jpg         600w
+                              " /><noscript
                               ><img
                                 width="300"
                                 height="200"
@@ -2487,70 +2574,6 @@
                     </div>
                   </div>
                 </div>
-                <div class="col post-item">
-                  <div class="col-inner">
-                    <div
-                      class="box box-vertical box-text-bottom box-blog-post has-hover"
-                    >
-                      <div class="box-image" style="width: 40%">
-                        <div class="image-cover" style="padding-top: 56%">
-                          <a
-                            href="https://inhoalong.vn/9-mau-to-roi-bat-dong-san-dep-hut-khach/"
-                            class="plain"
-                            aria-label="Hút khách nhanh chóng với 9+ mẫu tờ rơi bất động sản đẹp nhất"
-                            ><img
-                              data-lazyloaded="1"
-                              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgMzAwIDIwMCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
-                              width="300"
-                              height="200"
-                              data-src="https://inhoalong.vn/wp-content/uploads/2025/03/9-mau-to-roi-bat-dong-san-dep-300x200.jpg"
-                              class="attachment-medium size-medium wp-post-image"
-                              alt="9 mẫu tờ rơi bất động sản đẹp"
-                              decoding="async"
-                              data-srcset="https://inhoalong.vn/wp-content/uploads/2025/03/9-mau-to-roi-bat-dong-san-dep-300x200.jpg 300w, https://inhoalong.vn/wp-content/uploads/2025/03/9-mau-to-roi-bat-dong-san-dep.jpg 600w"
-                              data-sizes="(max-width: 300px) 100vw, 300px" /><noscript
-                              ><img
-                                width="300"
-                                height="200"
-                                src="https://inhoalong.vn/wp-content/uploads/2025/03/9-mau-to-roi-bat-dong-san-dep-300x200.jpg"
-                                class="attachment-medium size-medium wp-post-image"
-                                alt="9 mẫu tờ rơi bất động sản đẹp"
-                                decoding="async"
-                                srcset="
-                                  https://inhoalong.vn/wp-content/uploads/2025/03/9-mau-to-roi-bat-dong-san-dep-300x200.jpg 300w,
-                                  https://inhoalong.vn/wp-content/uploads/2025/03/9-mau-to-roi-bat-dong-san-dep.jpg         600w
-                                "
-                                sizes="(max-width: 300px) 100vw, 300px" /></noscript
-                          ></a>
-                        </div>
-                      </div>
-                      <div class="box-text text-left">
-                        <div class="box-text-inner blog-post-inner">
-                          <div class="c-line-top-meta">
-                            <a
-                              href="https://inhoalong.vn/mau-thiet-ke-dep/"
-                              class="c-meta-category"
-                              >Mẫu thiết kế đẹp</a
-                            ><span class="c-meta-date">21/03/2025</span>
-                          </div>
-                          <h4 class="post-title is-large">
-                            <a
-                              href="https://inhoalong.vn/9-mau-to-roi-bat-dong-san-dep-hut-khach/"
-                              class="plain"
-                              >Hút khách nhanh chóng với 9+ mẫu tờ rơi bất động
-                              sản đẹp nhất</a
-                            >
-                          </h4>
-                          <div class="is-divider"></div>
-                          <p class="from_the_blog_excerpt">
-                            Dù quảng cáo online phát triển, mẫu tờ rơi bất động
-                            sản vẫn là công...
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
               <ul class="page-numbers nav-pagination links text-center">
                 <li>
@@ -2611,7 +2634,7 @@
           </div>
           <div class="section-content relative">
             <div class="row row-small" id="row-649611173">
-              <div id="col-1256503207" class="col medium-4 small-12 large-4">
+              <div id="col-1256503207" class="col medium-4 small-12 large-8">
                 <div class="col-inner">
                   <div
                     class="icon-box featured-box align-middle icon-box-left text-left"
@@ -2681,189 +2704,10 @@
                   </div>
                 </div>
               </div>
-              <div
-                id="col-2118083792"
-                class="col box-link-footer medium-3 small-6 large-3"
-              >
-                <div class="col-inner">
-                  <div id="text-1606178964" class="text">
-                    <p><strong>Top Sản phẩm in ấn</strong></p>
-                    <style>
-                      #text-1606178964 {
-                        color: rgb(0, 0, 0);
-                      }
 
-                      #text-1606178964 > * {
-                        color: rgb(0, 0, 0);
-                      }
-                    </style>
-                  </div>
-                  <div class="ux-menu stack stack-col justify-start">
-                    <div class="ux-menu-link flex menu-item">
-                      <a
-                        class="ux-menu-link__link flex"
-                        href="https://inhoalong.vn/in-tem-nhan-decal/"
-                        ><span class="ux-menu-link__text"
-                          >In Tem decal sản phẩm</span
-                        ></a
-                      >
-                    </div>
-                    <div class="ux-menu-link flex menu-item">
-                      <a
-                        class="ux-menu-link__link flex"
-                        href="https://inhoalong.vn/in-tui-giay/"
-                        ><span class="ux-menu-link__text"
-                          >Xưởng Sản xuất túi Giấy</span
-                        ></a
-                      >
-                    </div>
-                    <div class="ux-menu-link flex menu-item">
-                      <a
-                        class="ux-menu-link__link flex"
-                        href="https://inhoalong.vn/in-bao-bi-vo-hop-giay-gia-re/"
-                        ><span class="ux-menu-link__text"
-                          >In bao bì Vỏ hộp giấy</span
-                        ></a
-                      >
-                    </div>
-                    <div class="ux-menu-link flex menu-item">
-                      <a
-                        class="ux-menu-link__link flex"
-                        href="https://inhoalong.vn/in-tem-7-mau-hologram/"
-                        ><span class="ux-menu-link__text"
-                          >In Tem 7 Màu Hologram</span
-                        ></a
-                      >
-                    </div>
-                  </div>
-                  <div class="social-icons follow-icons hide-for-small">
-                    <a
-                      href="https://www.facebook.com/inhoalong.vn/"
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                      data-label="Facebook"
-                      class="icon primary button circle facebook tooltip"
-                      title="Follow on Facebook"
-                      aria-label="Follow on Facebook"
-                      ><i class="icon-facebook"></i></a
-                    ><a
-                      href="https://www.instagram.com/inhoalongvn/"
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                      data-label="Instagram"
-                      class="icon primary button circle instagram tooltip"
-                      title="Follow on Instagram"
-                      aria-label="Follow on Instagram"
-                      ><i class="icon-instagram"></i></a
-                    ><a
-                      href="https://twitter.com/inhoalongvn"
-                      data-label="Twitter"
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                      class="icon primary button circle twitter tooltip"
-                      title="Follow on Twitter"
-                      aria-label="Follow on Twitter"
-                      ><i class="icon-twitter"></i></a
-                    ><a
-                      href="https://www.pinterest.com/inhoalong/"
-                      data-label="Pinterest"
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                      class="icon primary button circle pinterest tooltip"
-                      title="Follow on Pinterest"
-                      aria-label="Follow on Pinterest"
-                      ><i class="icon-pinterest"></i></a
-                    ><a
-                      href="https://www.youtube.com/@inhoalong"
-                      data-label="YouTube"
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                      class="icon primary button circle youtube tooltip"
-                      title="Follow on YouTube"
-                      aria-label="Follow on YouTube"
-                      ><i class="icon-youtube"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <div
-                id="col-2047972653"
-                class="col box-link-footer medium-2 small-6 large-2"
-              >
-                <div class="col-inner">
-                  <div id="text-522293183" class="text">
-                    <p><strong>Ấn phẩm Tết</strong></p>
-                    <style>
-                      #text-522293183 {
-                        color: rgb(0, 0, 0);
-                      }
-
-                      #text-522293183 > * {
-                        color: rgb(0, 0, 0);
-                      }
-                    </style>
-                  </div>
-                  <div class="ux-menu stack stack-col justify-start">
-                    <div class="ux-menu-link flex menu-item">
-                      <a
-                        class="ux-menu-link__link flex"
-                        href="https://inhoalong.vn/in-thiep/"
-                        ><span class="ux-menu-link__text">In Thiệp</span></a
-                      >
-                    </div>
-                    <div class="ux-menu-link flex menu-item">
-                      <a
-                        class="ux-menu-link__link flex"
-                        href="https://inhoalong.vn/in-bao-li-xi/"
-                        ><span class="ux-menu-link__text"
-                          >In Lì Xì 2025</span
-                        ></a
-                      >
-                    </div>
-                    <div class="ux-menu-link flex menu-item">
-                      <a
-                        class="ux-menu-link__link flex"
-                        href="https://inhoalong.vn/in-lich-tet/"
-                        ><span class="ux-menu-link__text"
-                          >In Lịch Tết 2025</span
-                        ></a
-                      >
-                    </div>
-                  </div>
-                  <p>
-                    <a
-                      href="http://online.gov.vn/Home/WebDetails/123711"
-                      rel="nofollow"
-                      ><img
-                        data-lazyloaded="1"
-                        src="https://inhoalong.vn/wp-content/uploads/2024/05/Logo-dang-ky-bo-cong-thuong-in-hoa-long.png"
-                        class="size-full wp-image-15797"
-                        data-src="https://inhoalong.vn/wp-content/uploads/2024/05/Logo-dang-ky-bo-cong-thuong-in-hoa-long.png"
-                        alt="Đăng ký website với bộ công thương"
-                        width="121"
-                        height="45"
-                    /></a>
-                  </p>
-                  <div id="text-2083655809" class="text hide-for-small">
-                    <a
-                      class="dmca-badge"
-                      href="//www.dmca.com/Protection/Status.aspx?ID=d6932113-0a8f-410e-9b6a-442f1e5e963b"
-                      rel="nofollow"
-                      ><img
-                        data-lazyloaded="1"
-                        src="https://images.dmca.com/Badges/dmca_protected_17_120.png?ID=d6932113-0a8f-410e-9b6a-442f1e5e963b"
-                        class="alignnone"
-                        data-src="https://images.dmca.com/Badges/dmca_protected_17_120.png?ID=d6932113-0a8f-410e-9b6a-442f1e5e963b"
-                        alt="Bản quyền bài viết thuộc về In Hoa Long được xác thực bởi DMCA.com Protection Status"
-                        width="121"
-                        height="39"
-                    /></a>
-                  </div>
-                </div>
-              </div>
               <div
                 id="col-721146433"
-                class="col box-link-footer medium-3 small-6 large-3"
+                class="col box-link-footer medium-3 small-12 large-8"
               >
                 <div class="col-inner">
                   <div id="text-4246782713" class="text">
@@ -2954,7 +2798,7 @@
               </div>
               <div
                 id="col-659831064"
-                class="col show-for-small medium-4 small-6 large-4"
+                class="col show-for-small medium-4 small-12 large-8"
               >
                 <div class="col-inner">
                   <div id="text-1704084578" class="text">
@@ -3170,80 +3014,196 @@
         </div>
       </footer>
     </div>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="myOffcanvas">
+    <div
+      id="tu-van-247"
+      class="lightbox-by-id lightbox-content mfp-hide lightbox-white"
+      style="max-width: 600px; padding: 20px"
+    >
+      <h3><span style="color: #1596e2">ĐĂNG KÝ TƯ VẤN</span></h3>
+      Quý khách hàng vui lòng để lại thông tin bên dưới, chúng tôi sẽ liên hệ
+      với quý khách trong vòng ít phút
+      <div
+        class="wpcf7 js"
+        id="wpcf7-f123-o4"
+        lang="vi"
+        dir="ltr"
+        data-wpcf7-id="123"
+      >
+        <div class="screen-reader-response">
+          <p role="status" aria-live="polite" aria-atomic="true"></p>
+          <ul></ul>
+        </div>
+        <form
+          action="/#wpcf7-f123-o4"
+          method="post"
+          class="wpcf7-form init"
+          aria-label="Form liên hệ"
+          novalidate="novalidate"
+          data-status="init"
+        >
+          <div style="display: none">
+            <input type="hidden" name="_wpcf7" value="123" /><input
+              type="hidden"
+              name="_wpcf7_version"
+              value="6.0"
+            /><input type="hidden" name="_wpcf7_locale" value="vi" /><input
+              type="hidden"
+              name="_wpcf7_unit_tag"
+              value="wpcf7-f123-o4"
+            /><input
+              type="hidden"
+              name="_wpcf7_container_post"
+              value="0"
+            /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <span class="wpcf7-form-control-wrap" data-name="your-name"
+                  ><input
+                    size="40"
+                    maxlength="400"
+                    class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="Họ và Tên*"
+                    value=""
+                    type="text"
+                    name="your-name"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col large-6">
+              <div class="form-group">
+                <span class="wpcf7-form-control-wrap" data-name="your-phone"
+                  ><input
+                    size="40"
+                    maxlength="400"
+                    class="wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel form-control"
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="Số điện thoại*"
+                    value=""
+                    type="tel"
+                    name="your-phone"
+                /></span>
+              </div>
+            </div>
+            <div class="col large-6">
+              <div class="form-group">
+                <span class="wpcf7-form-control-wrap" data-name="your-email"
+                  ><input
+                    size="40"
+                    maxlength="400"
+                    class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email form-control"
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="Email*"
+                    value=""
+                    type="email"
+                    name="your-email"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <span class="wpcf7-form-control-wrap" data-name="your-message">
+                  <textarea
+                    cols="40"
+                    rows="10"
+                    maxlength="2000"
+                    class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control"
+                    aria-required="true"
+                    aria-invalid="false"
+                    placeholder="Nội dung liên hệ*"
+                    name="your-message"
+                  ></textarea>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="form-group">
+                <input
+                  class="wpcf7-form-control wpcf7-submit has-spinner btn btn-primary"
+                  type="submit"
+                  value="Đăng ký tư vấn"
+                /><span class="wpcf7-spinner"></span>
+              </div>
+            </div>
+          </div>
+          <p
+            style="display: none !important"
+            class="akismet-fields-container"
+            data-prefix="_wpcf7_ak_"
+          >
+            <label
+              >Δ<textarea
+                name="_wpcf7_ak_hp_textarea"
+                cols="45"
+                rows="8"
+                maxlength="100"
+              ></textarea></label
+            ><input
+              type="hidden"
+              id="ak_js_4"
+              name="_wpcf7_ak_js"
+              value="1744363647392"
+            />
+            <script
+              src="data:text/javascript;base64,ZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImFrX2pzXzQiKS5zZXRBdHRyaWJ1dGUoInZhbHVlIiwobmV3IERhdGUoKSkuZ2V0VGltZSgpKQ=="
+              defer=""
+            ></script>
+          </p>
+          <div class="wpcf7-response-output" aria-hidden="true"></div>
+        </form>
+      </div>
+    </div>
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasMenu"
+      aria-labelledby="offcanvasMenuLabel"
+    >
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title"></h5>
+        <h5 class="offcanvas-title" id="offcanvasMenuLabel">In Hoa Long</h5>
         <button
           type="button"
           class="btn-close"
           data-bs-dismiss="offcanvas"
+          aria-label="Đóng"
         ></button>
       </div>
       <div class="offcanvas-body">
-        <ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1">
-          <li
-            id="menu-item-7746"
-            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7746"
-          >
-            <a
-              href="https://inhoalong.vn/in-tem-chong-hang-gia-chuyen-nghiep-tai-ha-noi/"
-              >In tem chống giả lấy nhanh</a
-            >
+        <ul class="list-group">
+          <li class="list-group-item">
+            <a href="#">In tem chống giả lấy nhanh</a>
           </li>
-          <li
-            id="menu-item-7749"
-            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7749"
-          >
-            <a href="https://inhoalong.vn/in-tui-dung-quan-ao/"
-              >In túi shop quần áo</a
-            >
+          <li class="list-group-item">
+            <a href="#">In túi shop quần áo</a>
           </li>
-          <li
-            id="menu-item-7750"
-            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7750"
-          >
-            <a href="https://inhoalong.vn/in-bao-li-xi/">In lì xì tết 2025</a>
+          <li class="list-group-item"><a href="#">In lì xì tết 2025</a></li>
+          <li class="list-group-item"><a href="#">In túi quà tết</a></li>
+          <li class="list-group-item">
+            <a href="#">In tem nhãn giá rẻ Hà Nội</a>
           </li>
-          <li
-            id="menu-item-7742"
-            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7742"
-          >
-            <a href="https://inhoalong.vn/in-tui-qua-tet-gia-re-tai-ha-noi/"
-              >In túi quà tết</a
-            >
+          <li class="list-group-item"><a href="#">In tem 7 màu Hà nội</a></li>
+          <li class="list-group-item">
+            <a href="#">In bao bì vỏ hộp giấy Hà Nội</a>
           </li>
-          <li
-            id="menu-item-7743"
-            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7743"
-          >
-            <a href="https://inhoalong.vn/in-tem-nhan-decal/"
-              >In tem nhãn giá rẻ Hà Nội</a
-            >
+          <li class="list-group-item"><a href="#">In hộp giấy bánh kẹo</a></li>
+          <li class="list-group-item">
+            <a href="#">Xưởng in túi giấy giá rẻ Hà Nội</a>
           </li>
-          <li
-            id="menu-item-7744"
-            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7744"
-          >
-            <a href="https://inhoalong.vn/in-tem-7-mau-hologram/"
-              >In tem 7 màu Hà nội</a
-            >
+          <li class="list-group-item">
+            <a href="#">in túi giấy đựng hoa quả</a>
           </li>
-          <li
-            id="menu-item-7745"
-            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7745"
-          >
-            <a href="https://inhoalong.vn/in-bao-bi-vo-hop-giay-gia-re/"
-              >In bao bì vỏ hộp giấy Hà Nội</a
-            >
-          </li>
-          <li
-            id="menu-item-7753"
-            class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7753"
-          >
-            <a href="https://inhoalong.vn/bao-gia-in-an-ha-noi/"
-              >Báo giá in ấn</a
-            >
-          </li>
+          <li class="list-group-item"><a href="#">Báo giá in ấn</a></li>
           <li class="html header-button-1">
             <div class="header-button">
               <a
@@ -3269,8 +3229,17 @@
         </ul>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js"></script>
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/sccript.js"></script>
+    <script src="./assets/js/litespeed.js"></script>
+    <!-- Đặt trước </body> -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>

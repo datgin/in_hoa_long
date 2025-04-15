@@ -22,7 +22,7 @@ const swiper = new Swiper(".swiper-container", {
   slidesPerView: 1.2, // Số lượng slide hiển thị
   spaceBetween: 10, // Khoảng cách giữa các slide
   centeredSlides: false, // Giữ slide giữa
-  allowTouchMove: true,      
+  allowTouchMove: true,
   breakpoints: {
     768: {
       slidesPerView: 1.2, // Màn hình nhỏ hiển thị 1 slide
@@ -35,7 +35,7 @@ const swiper = new Swiper(".swiper-container", {
 const swiper2 = new Swiper(".mySwiper2", {
   slidesPerView: 2,
   spaceBetween: 20,
-  allowTouchMove: true,      
+  allowTouchMove: true,
   loop: true,
   autoplay: {
     delay: 5000,
@@ -55,4 +55,28 @@ const swiper2 = new Swiper(".mySwiper2", {
       spaceBetween: 30,
     },
   },
+});
+const header = document.querySelector(".header-main");
+let lastScroll = window.scrollY;
+let scrollTimeout;
+
+window.addEventListener("scroll", () => {
+  const currentScroll = window.scrollY;
+
+  // Cuộn xuống
+  if (currentScroll > lastScroll) {
+    header.classList.add("hide");
+  }
+  // Cuộn lên
+  else if (currentScroll < lastScroll) {
+    header.classList.remove("hide");
+  }
+
+  lastScroll = currentScroll;
+
+  // Nếu dừng cuộn trong 2 giây → ẩn header
+  clearTimeout(scrollTimeout);
+  scrollTimeout = setTimeout(() => {
+    header.classList.add("hide");
+  }, 2000); // 2000 ms = 2 giây
 });

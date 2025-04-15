@@ -9744,10 +9744,17 @@ html {
 }
 
 .header-main {
-  position: relative;
-  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1000;
+  transition: transform 0.3s ease;
 }
-
+.header-main.hide {
+  transform: translateY(-100%); /* Trượt header lên ngoài màn hình */
+}
 .header-bottom {
   min-height: 35px;
   position: relative;
@@ -14832,7 +14839,7 @@ p.price.product-page-price.price-on-sale del {
     width: 50%;
     padding-top: 10px !important;
   }
-
+  
   ul.nav.nav-sidebar.nav-vertical.nav-uppercase {
     flex-flow: row wrap;
   }
