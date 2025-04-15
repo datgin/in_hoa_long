@@ -9744,16 +9744,11 @@ html {
 }
 
 .header-main {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: white;
-  z-index: 1000;
-  transition: transform 0.3s ease;
+  height: 116px
 }
-.header-main.hide {
-  transform: translateY(-100%); /* Trượt header lên ngoài màn hình */
+.header-main {
+  position: relative;
+  z-index: 10
 }
 .header-bottom {
   min-height: 35px;
